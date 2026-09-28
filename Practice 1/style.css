@@ -1,11 +1,22 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #abddff;
-    margin: 2%;
-    padding: 0;
     align-content: center;
 
 }
+.box {
+    text-align: center;
+    background-color: rgb(85, 35, 179);
+    color: white;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: dashed 2px #333;
+    align-content: center;
+    margin-top: 10px;
+}
+
 .box1 {
     text-align: center;
     background-color: rgb(35, 179, 162);
