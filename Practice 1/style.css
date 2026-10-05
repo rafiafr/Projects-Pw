@@ -1,30 +1,32 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #abddff;
+    background: aliceblue;
     align-content: center;
-
 }
 .box {
     text-align: center;
-    background-color: rgb(85, 35, 179);
+    background-color: #23B2A1;
     color: white;
-    width: 500px;
-    height: 50px;
+    width: 70%;
+    height: auto;
     border-radius: 10px;   
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    outline: dashed 2px #333;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    outline: 2px #f3eeee;
     align-content: center;
     margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 50px;
 }
 
 .box1 {
-    text-align: center;
+    text-align: justify;
     background-color: rgb(35, 179, 162);
     color: white;
-    width: 500px;
-    height: 100px;
+    width: 70%;
+    padding: 50px;
+    height: fit-content;
     border-radius: 10px;   
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    outline: dashed 2px #333;
+    outline: 2px #333;
     align-content: center;
 }
